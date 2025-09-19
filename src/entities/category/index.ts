@@ -1,0 +1,6 @@
+export { fetchCategories, fetchCategoryById } from './api/category-api.ts'
+export type { FetchCategoriesParams } from './api/category-api.ts'
+export { useCategoryStore } from './model/category-store.ts'
+export type { Category, CategoryId } from './model/category-types.ts'
+export { default as CategoryTree } from './ui/category-tree.vue'
+export { default as CategoryLink } from './ui/category-link.vue'

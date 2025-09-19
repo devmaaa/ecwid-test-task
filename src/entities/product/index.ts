@@ -1,0 +1,6 @@
+export { fetchProducts, fetchProductById } from './api/product-api.ts'
+export { useProductStore } from './model/product-store.ts'
+export type { Product, ProductFilters, ProductId } from './model/product-types.ts'
+export { default as ProductCard } from './ui/product-card.vue'
+export { default as ProductList } from './ui/product-list.vue'
+export { default as AddToCartButton } from './ui/add-to-cart-button.vue'
